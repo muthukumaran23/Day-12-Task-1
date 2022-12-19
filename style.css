@@ -1,0 +1,91 @@
+body{
+    background-color:rgba(7, 205, 27, 0.547)
+  }
+  
+  #event{
+      text-align: center;
+      font-size: 40px;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+  }
+  p{
+      text-align: center;
+      font-size: 25px;
+  }
+   
+   .container-1{
+       border: 2px solid rgba(0, 0, 0, 0.48);
+       margin:30px;
+       margin-top: 40px;
+       margin-left: 100px;
+       width:70%;
+       height:auto;
+       background-color: rgb(162, 125, 240);
+       
+       
+       
+   }
+   .container-2{
+      border: 2px solid black;
+      margin:20px;
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+
+   }
+   .box{
+      border: 2px solid black;
+      width: 170px;
+      height: 170px;
+      margin-bottom: 70px;
+      margin-left:10px;
+      background-color: brown;
+  }
+  
+    
+   #foo{
+      margin-left: 60px;
+      font-size: 20px;
+        
+   }
+   #name,#email,#phonenumber{
+    float:right;
+   }
+   #seats{
+    margin-left: 57px;
+   }
+   button{
+    width: 140px;
+   }
+   #circle{
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 140px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-align:center;
+    padding-top: 55px;
+    
+    
+   }
+
+   @media only screen and (max-width: 480px) {
+     .container-1{
+      width: auto;
+      text-align: center; 
+      background-color:aqua;
+      display: flex;
+      flex-wrap: wrap;
+     
+
+    }
+    .container-2{
+       width:auto;
+    }
+    #name,#email,#phonenumber{
+      
+      margin-right: auto;
+  }
+
+}
